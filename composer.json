@@ -1,0 +1,5 @@
+{
+	"name": "moodley/site_base",
+	"description": "Site Base Installation",
+	"type": "typo3-cms-extension"
+}
