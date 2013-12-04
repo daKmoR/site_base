@@ -41,6 +41,31 @@ page.headerData.10.value (
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 )
 
+page {
+	bodyTag >
+	bodyTagCObject = COA
+	bodyTagCObject {
+		10 = TEXT
+		10.value = <body
+		10.noTrimWrap = || |
+
+		20 < .10
+		20.field = uid
+		20.wrap = id="pid|"
+
+		50 = TEXT
+		50.value = class="
+		50.noTrimWrap = | ||
+
+		90 = TEXT
+		90.value = "
+		90.noTripWrap = || |
+
+		100 = TEXT
+		100.value = >
+	}
+}
+
 ## RealUrl #########################################################################################
 config {
 	baseURL = http://localhost

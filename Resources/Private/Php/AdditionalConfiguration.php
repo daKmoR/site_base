@@ -43,9 +43,6 @@ $GLOBALS['TYPO3_CONF_VARS']['BE']['disable_exec_function'] = '0';
 // do not allow donation window
 $GLOBALS['TYPO3_CONF_VARS']['BE']['allowDonateWindow'] = FALSE;
 
-// set required extensions
-$GLOBALS['TYPO3_CONF_VARS']['EXT']['requiredExt'] = 'css_styled_content,realurl,openid,wt_base';
-
 // UTF8filesystem by default
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['UTF8filesystem'] = '1';
 
