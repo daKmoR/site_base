@@ -18,6 +18,7 @@ menus.nestedList {
 		NO {
 			wrapItemAndSub = <li class="first">|</li> |*| <li>|</li> |*| <li class="last">|</li>
 			ATagParams = class="first" |*| |*| class="last"
+			ATagParams.stdWrap.noTrimWrap = | | |
 			stdWrap.dataWrap = <span>|</span>
 		}
 
